@@ -15,7 +15,7 @@ function TaskManager() {
     };
    
     this.viewTasks = function() {
-      console.log("alksdmlaksdmfalsdmfşlasdfm");
+      console.log("meltem2  asdmlaksdmşasldmaşsld");
       this.tasks.forEach(task => {
         console.log(`${task.name} - ${task.completed ? 'Tamamlandı' : 'Pending'}`);
       });
