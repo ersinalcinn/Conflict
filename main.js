@@ -10,12 +10,12 @@ function TaskManager() {
       if (taskIndex !== -1) {
         this.tasks[taskIndex].completed = true;
       } else {
-        console.log("Görev bulunamaaddıııı. Tekrar kontrol et.");
+        console.log("bom");
       }
     };
    
     this.viewTasks = function() {
-      console.log("Görevleeeerrr:");
+      console.log("Patlaaa");
       this.tasks.forEach(task => {
         console.log(`${task.name} - ${task.completed ? 'Tamamlandı' : 'Pending'}`);
       });
