@@ -15,7 +15,7 @@ function TaskManager() {
     };
    
     this.viewTasks = function() {
-      console.log("değişşş234234234");
+      console.log("EERSIN2222");
       this.tasks.forEach(task => {
         console.log(`${task.name} - ${task.completed ? 'Tamamlandı' : 'Pending'}`);
       });
